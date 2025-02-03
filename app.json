@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Streaks",
+    "slug": "streaks",
+    "scheme": "streaks",
+    "version": "0.3.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.akondratiyk.streaks",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.akondratiyk.streaks",
+      "permissions": ["POST_NOTIFICATIONS", "SCHEDULE_EXACT_ALARM"]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-localization",
+      [
+        "expo-notifications",
+        {
+          "color": "#3B5BDB"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F7F7F5",
+          "dark": {
+            "backgroundColor": "#111113"
+          }
+        }
+      ]
+    ]
+  }
+}
