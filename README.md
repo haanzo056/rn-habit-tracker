@@ -1,5 +1,7 @@
 # Streaks
 
+[![CI](https://github.com/haanzo056/rn-habit-tracker/actions/workflows/ci.yml/badge.svg)](https://github.com/haanzo056/rn-habit-tracker/actions/workflows/ci.yml) ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white) ![License](https://img.shields.io/github/license/haanzo056/rn-habit-tracker)
+
 An offline-first habit tracker built with Expo. Mark habits done for the day, keep
 streaks going, get a reminder at a set time. Everything lives in SQLite on the device;
 if you point it at a server it syncs in the background.
